@@ -11,6 +11,7 @@
 // chapter_03 연결 리스트 1
 #include "chapter_03_list/ListMain.c"
 #include "chapter_03_list/ArrayList.c"
+#include "chapter_03_list/Point.c"
 
 int main(void) {
     /*
@@ -21,8 +22,16 @@ int main(void) {
     // chapter 02 재귀
 
     testRecursive();
-    */
 
     // chapter 03 연결 리스트 1
     testList();
+    // 리스트 라이브러리 활용
+    qUseListLib();
+    // 리스트 구현
+    makeListArraySample();
+    */
+
+    // 순차리스트 좌표 적용
+    pointListMain();
+
 }
