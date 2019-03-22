@@ -7,11 +7,16 @@
 // chapter_02 재귀
 #include "chapter_02_recursive/RecursiveFunc.c"
 
-*/
+
 // chapter_03 연결 리스트 1
 #include "chapter_03_list/ListMain.c"
 #include "chapter_03_list/ArrayList.c"
 #include "chapter_03_list/Point.c"
+*/
+
+// chapter 04 연결 리스트 2 - 단순 연결 리스트
+#include "chapter_04_list/ListMain.c"
+
 
 int main(void) {
     /*
@@ -29,9 +34,13 @@ int main(void) {
     qUseListLib();
     // 리스트 구현
     makeListArraySample();
-    */
-
     // 순차리스트 좌표 적용
     pointListMain();
 
+
+    // chapter 04 연결 리스트 2 - 단순 연결 리스트
+//    testList2();
+    // 연결 리스트에 구조체 변수의 주소 값 저장하기
+    pointListMain2();
+    */
 }
