@@ -12,10 +12,13 @@
 #include "chapter_03_list/ListMain.c"
 #include "chapter_03_list/ArrayList.c"
 #include "chapter_03_list/Point.c"
-*/
 
 // chapter 04 연결 리스트 2 - 단순 연결 리스트
 #include "chapter_04_list/ListMain.c"
+*/
+
+// chapter 05 연결 리스트 3 - 원형 연결 리스트
+#include "chapter_05_list/ListMain.c"
 
 
 int main(void) {
@@ -43,4 +46,9 @@ int main(void) {
     // 연결 리스트에 구조체 변수의 주소 값 저장하기
     pointListMain2();
     */
+
+    // chapter 05 연결 리스트 3 - 원형 연결 리스트
+//    testList3();
+    testList4();
+
 }
