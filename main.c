@@ -17,8 +17,11 @@
 #include "chapter_04_list/ListMain.c"
 */
 
-// chapter 05 연결 리스트 3 - 원형 연결 리스트
+// chapter 05 연결 리스트 3 - 원형 연결 리스트 + 06_01 문제 포함
 #include "chapter_05_list/ListMain.c"
+
+// chapter 06 스택
+//#include "chapter_06_stack/StackMain.c"
 
 
 int main(void) {
@@ -49,6 +52,14 @@ int main(void) {
 
     // chapter 05 연결 리스트 3 - 원형 연결 리스트
 //    testList3();
-    testList4();
+//    testList4();
+
+    // chapter 06 스택
+//    testStack();
+//    testLinkedListStack();
+//    testPostfix();
+//    testCalculator();
+//    testInfixCalculator();
+    testCLLBaseStack(); // in chapter 05 순환 연결리스트 스택
 
 }

@@ -5,9 +5,32 @@
 //#include "CLinkedList.h"
 //#include "CLinkedList.c"
 
+
 // 양방향 연결 리스트 구현 + (05-04 문제)양방향 더미 추가
-#include "DBDLinkedList.h"
-#include "DBDLinkedList.c"
+//#include "DBDLinkedList.h"
+//#include "DBDLinkedList.c"
+
+// 원형 연결 리스트 스택 구현
+#include "CLLBaseStack.h"
+#include "CLLBaseStack.c"
+
+// 원형 연결 리스트 스택 구현
+void testCLLBaseStack()
+{
+    // Stack의 생성 및 초기화 ///////
+    Stack stack;
+    StackInit(&stack);
+
+    // 데이터 넣기 ///////
+    SPush(&stack, 1);  SPush(&stack, 2);
+    SPush(&stack, 3);  SPush(&stack, 4);
+    SPush(&stack, 5);
+
+    // 데이터 꺼내기 ///////
+    while(!SIsEmpty(&stack))
+        printf("%d ", SPop(&stack));
+}
+
 
 /*
 // 원형 연결 리스트 구현
@@ -67,7 +90,7 @@ void testList3(void)
         }
     }
 }
-*/
+
 
 // 양방향 연결 리스트 구현 + (05-04 문제)양방향 더미 추가
 int testList4(void)
@@ -119,3 +142,4 @@ int testList4(void)
 
     return 0;
 }
+*/

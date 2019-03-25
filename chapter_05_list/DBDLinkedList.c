@@ -2,37 +2,6 @@
 #include <stdlib.h>
 #include "DBDLinkedList.h"
 
-// 재 구성해보기
-/*
-void ListInit(List * plist);
-void LInsert(List * plist, Data data);
-int LFirst(List * plist, Data * pdata);
-int LNext(List * plist, Data * pdata);
-Data LRemove(List * plist);
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void ListInit(List * plist)
 {
     plist->head = (Node*)malloc(sizeof(Node));
