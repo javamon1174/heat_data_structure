@@ -18,11 +18,13 @@
 */
 
 // chapter 05 연결 리스트 3 - 원형 연결 리스트 + 06_01 문제 포함
-#include "chapter_05_list/ListMain.c"
+//#include "chapter_05_list/ListMain.c"
 
 // chapter 06 스택
 //#include "chapter_06_stack/StackMain.c"
 
+// chapter 07 큐
+#include "chapter_07_queue/QueueMain.c"
 
 int main(void) {
     /*
@@ -60,6 +62,11 @@ int main(void) {
 //    testPostfix();
 //    testCalculator();
 //    testInfixCalculator();
-    testCLLBaseStack(); // in chapter 05 순환 연결리스트 스택
+//    testCLLBaseStack(); // in chapter 05 순환 연결리스트 스택
+
+    // chapter 07 큐
+//    testCQueue();
+//    testListBaseQueue();
+    testDequeue(); // 덱
 
 }
