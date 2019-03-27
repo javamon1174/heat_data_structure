@@ -15,7 +15,7 @@
 
 // chapter 04 연결 리스트 2 - 단순 연결 리스트
 #include "chapter_04_list/ListMain.c"
-*/
+
 
 // chapter 05 연결 리스트 3 - 원형 연결 리스트 + 06_01 문제 포함
 //#include "chapter_05_list/ListMain.c"
@@ -25,6 +25,10 @@
 
 // chapter 07 큐
 #include "chapter_07_queue/QueueMain.c"
+*/
+
+// chapter 08 트리
+#include "chapter_08_tree/TreeMain.c"
 
 int main(void) {
     /*
@@ -50,7 +54,7 @@ int main(void) {
 //    testList2();
     // 연결 리스트에 구조체 변수의 주소 값 저장하기
     pointListMain2();
-    */
+
 
     // chapter 05 연결 리스트 3 - 원형 연결 리스트
 //    testList3();
@@ -67,6 +71,11 @@ int main(void) {
     // chapter 07 큐
 //    testCQueue();
 //    testListBaseQueue();
-    testDequeue(); // 덱
+//    testDequeue(); // 덱
+    */
+
+    // chapter 08 트리
+//    testBinaryTree(); // 이진트리 - 삽입, 삭제, 조회
+    testExpressionTree(); // 수식트리 구현
 
 }
