@@ -25,10 +25,15 @@
 
 // chapter 07 큐
 #include "chapter_07_queue/QueueMain.c"
-*/
+
 
 // chapter 08 트리
 #include "chapter_08_tree/TreeMain.c"
+*/
+
+// chapter 09 우선순위 큐와 힙
+#include "chapter_09_heap/HeapMain.c"
+
 
 int main(void) {
     /*
@@ -72,10 +77,14 @@ int main(void) {
 //    testCQueue();
 //    testListBaseQueue();
 //    testDequeue(); // 덱
-    */
+
 
     // chapter 08 트리
 //    testBinaryTree(); // 이진트리 - 삽입, 삭제, 조회
     testExpressionTree(); // 수식트리 구현
+    */
 
+    // chapter 09 우선순위 큐와 힙
+//    testSimpleHeap();
+    testUseHeap();
 }
