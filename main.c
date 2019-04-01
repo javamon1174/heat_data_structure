@@ -29,10 +29,14 @@
 
 // chapter 08 트리
 #include "chapter_08_tree/TreeMain.c"
-*/
+
 
 // chapter 09 우선순위 큐와 힙
 #include "chapter_09_heap/HeapMain.c"
+*/
+
+// chapter 10 정렬
+#include "chapter_10_sort/SortMain.c"
 
 
 int main(void) {
@@ -86,5 +90,11 @@ int main(void) {
 
     // chapter 09 우선순위 큐와 힙
 //    testSimpleHeap();
-    testUseHeap();
+//    testUseHeap();
+
+    // chapter 10 정렬
+    testSort();
+
+
+
 }

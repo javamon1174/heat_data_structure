@@ -13,7 +13,7 @@
 //	return ch1-ch2;
 //}
 
-// 문제 09-1
+// 문제 09-1 문자열 길이에 따른 우선순위 부여
 int DataPriorityComp(char *ch1, char *ch2)
 {
     return strlen(ch2)-strlen(ch1);
