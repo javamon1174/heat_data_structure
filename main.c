@@ -33,11 +33,13 @@
 
 // chapter 09 우선순위 큐와 힙
 #include "chapter_09_heap/HeapMain.c"
-*/
 
 // chapter 10 정렬
 #include "chapter_10_sort/SortMain.c"
+*/
 
+// chapter 11 탐색
+#include "chapter_11_search/SearchMain.c"
 
 int main(void) {
     /*
@@ -93,8 +95,9 @@ int main(void) {
 //    testUseHeap();
 
     // chapter 10 정렬
-    testSort();
+//    testSort();
 
-
+    // chapter 11 탐색
+    testSearch();
 
 }
