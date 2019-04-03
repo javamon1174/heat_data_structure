@@ -39,7 +39,10 @@
 */
 
 // chapter 11 탐색
-#include "chapter_11_search/SearchMain.c"
+//#include "chapter_11_search/SearchMain.c"
+
+// chapter 12 탐색 2
+#include "chapter_12_search/SearchMain.c"
 
 int main(void) {
     /*
@@ -88,7 +91,7 @@ int main(void) {
     // chapter 08 트리
 //    testBinaryTree(); // 이진트리 - 삽입, 삭제, 조회
     testExpressionTree(); // 수식트리 구현
-    */
+
 
     // chapter 09 우선순위 큐와 힙
 //    testSimpleHeap();
@@ -98,6 +101,10 @@ int main(void) {
 //    testSort();
 
     // chapter 11 탐색
-    testSearch();
+//    testSearch();
+    */
+
+    // chpater 12 탐색 2
+    testSearch2();
 
 }
