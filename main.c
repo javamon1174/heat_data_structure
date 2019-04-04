@@ -42,7 +42,10 @@
 //#include "chapter_11_search/SearchMain.c"
 
 // chapter 12 탐색 2
-#include "chapter_12_search/SearchMain.c"
+//#include "chapter_12_search/SearchMain.c"
+
+// chapter 13 테이블과 해쉬
+#include "chpater_13_hash_table/HashTableMain.c"
 
 int main(void) {
     /*
@@ -102,9 +105,12 @@ int main(void) {
 
     // chapter 11 탐색
 //    testSearch();
-    */
 
     // chpater 12 탐색 2
-    testSearch2();
+//    testSearch2();
+    */
+
+    // chapter 13 테이블과 해쉬
+    HashTableMain();
 
 }

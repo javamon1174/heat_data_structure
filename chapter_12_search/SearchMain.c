@@ -20,7 +20,7 @@ void testSearch2()
      * 2 4
      * 1 5
      * 위와 같은 구조일 때 6을 추가해도 밸런싱이 이루어 지지 않아 재귀적으로 BSInsert 함수를 구성해야 한다. => 생략
-     * 
+     *
      */
     BTreeNode * avlRoot;
     BTreeNode * clNode;		// current left node
